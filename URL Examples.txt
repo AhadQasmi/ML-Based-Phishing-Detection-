@@ -1,0 +1,13 @@
+# PHISHING URL TO TRY "Dont open"
+http://portalbetter.dreamhosters.com/ProvidersBetterware
+https://request-for-badge.vercel.app/
+https://shaw-101381.weeblysite.com/
+https://authorizeonlineweb.xyz/g2ks/
+http://cyrustabji.github.io/sample2
+https://st-join.com/
+
+# LEGITIMATE URL TO TRY 
+
+https://www.google.com/
+https://www.youtube.com/
+https://www.w3schools.com/
