@@ -40,7 +40,9 @@ After loading the extension, you can enter a URL in the input field. The system 
 
 ### Technical Specifications
  -Programming Language: Python
+ 
  -Data Processing Libraries: Utilizes various Python libraries for feature extraction and data cleaning.
+ 
  -User Interface: Built with HTML, CSS, and JavaScript, complemented by a Flask API for communication between the extension and the backend
 
   
