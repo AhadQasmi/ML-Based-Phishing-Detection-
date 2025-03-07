@@ -21,13 +21,14 @@ This project is a vital step toward enhancing online security and empowering use
 ### Installation and Setup
 1-Clone the Repository:
  ```bash
- git clone https://github.com/yourusername/PhishEagle.git
-cd PhishEagle
+ git clone https://github.com/AhadQasmi/ML-Based-Phishing-Detection-.git
 
 2-Configure the Local Server:
 Run the Flask application to set up the local server:
+
 ```bash
 python app.py
+
 
 3- Load the Browser Extension:
 1-Open Chrome and navigate to chrome://extensions/.
