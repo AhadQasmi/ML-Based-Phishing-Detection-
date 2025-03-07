@@ -21,24 +21,21 @@ This project is a vital step toward enhancing online security and empowering use
 ### Installation and Setup
 1-Clone the Repository:
  ```bash
- git clone https://github.com/AhadQasmi/ML-Based-Phishing-Detection-.git
+   git clone https://github.com/AhadQasmi/ML-Based-Phishing-Detection-.git
 
 
 2-Configure the Local Server:
-Run the Flask application to set up the local server:
-
-```bash
+Navigate to the project directory and run the Flask application to set up the local server:
 python app.py
 
-3- Load the Browser Extension:
-1-Open Chrome and navigate to chrome://extensions/.
-2-Enable Developer Mode.
-3-Click on Load unpacked and select the extension directory.
+Load the Browser Extension:
+Open Chrome and navigate to chrome://extensions/.
+Enable Developer Mode.
+Click on Load unpacked and select the extension directory.
 
 
-### Usage
-After loading the extension, enter a URL in the input field.
-The system will classify the URL as either phishing or legitimate based on its training.
+###Usage
+After loading the extension, you can enter a URL in the input field. The system will classify the URL as either phishing or legitimate based on its training.
 
 
 Technical Specifications
