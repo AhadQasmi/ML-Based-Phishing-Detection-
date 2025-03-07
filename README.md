@@ -22,3 +22,7 @@ This project is a vital step toward enhancing online security and empowering use
 1-Clone the Repository:
  ```bash
  git clone https://github.com/AhadQasmi/ML-Based-Phishing-Detection-.git
+
+2- Configure the Local Server:
+Navigate to the project directory and run the Flask application to set up the local server:
+python app.py
