@@ -1,17 +1,47 @@
-# ML-Based-Phishing-Detection-
-Phishing has become a significant security risk in recent years, impacting both the targeted companies and people. phishing URLs are URLs that are specially created by phishing attackers The common characteristic of these URLs is that they appear to be a legitimate URL but redirect users to the attackers’ websites to steal information from users.
- 
-The "PhishEagle" system was designed to combat phishing attacks that exploit human vulnerabilities to steal sensitive information. The system leverages a Random Forest model trained on a large Mendeley dataset from 2020, which provides a significant advantage in identifying the most recent phishing attempts.
+# PhishEagle - Machine Learning-Based Phishing Detection System
+## Overview
+Phishing has emerged as a significant cybersecurity threat, affecting both individuals and organizations. Phishing URLs are deceptively crafted to appear legitimate, but they redirect users to malicious sites aimed at stealing sensitive information.
 
-The system achieved a notable accuracy rate of 99.40% in classifying URLs as either phishing or legitimate, reflecting its high precision and effectiveness. To enhance user accessibility, the PhishEagle system was integrated as a user-friendly browser extension, allowing users to input URLs for classification directly. When a URL is entered, the system processes it and displays the result to the user.
+The **PhishEagle** system was developed to combat these phishing attacks by leveraging advanced machine learning techniques. Utilizing a **Random Forest** model trained on a comprehensive Mendeley dataset from 2020, PhishEagle excels in identifying recent phishing attempts with remarkable accuracy.
 
-This project represents an important step towards improving cybersecurity and helping users avoid online phishing risks
+### Key Features
+- **High Accuracy**: Achieved an impressive classification accuracy of **99.40%**, effectively distinguishing between phishing and legitimate URLs.
+- **User-Friendly Browser Extension**: Integrated as a browser extension, allowing users to easily input URLs for immediate classification.
+
+This project is a vital step toward enhancing online security and empowering users to avoid phishing risks.
+
+## Getting Started
+
+### Prerequisites
+- Ensure you have Python installed on your machine.
+- Install Flask to create the local server:
+   ```bash
+   pip install flask
+
+### Installation and Setup
+1-Clone the Repository:
+ ```bash
+ git clone https://github.com/yourusername/PhishEagle.git
+cd PhishEagle
+
+2-Configure the Local Server:
+Run the Flask application to set up the local server:
+```bash
+python app.py
+
+3- Load the Browser Extension:
+1-Open Chrome and navigate to chrome://extensions/.
+2-Enable Developer Mode.
+3-Click on Load unpacked and select the extension directory.
+
+Usage
+After loading the extension, enter a URL in the input field.
+The system will classify the URL as either phishing or legitimate based on its training.
 
 
-- To Run the program:
+Technical Specifications
+Programming Language: Python
+Data Processing Libraries: Utilizes various Python libraries for feature extraction and data cleaning.
+User Interface: Built with HTML, CSS, and JavaScript, complemented by a Flask API for communication between the extension and the backend.
 
-1- download flask and run it to get the localserver, insert the localserver into popup.js file in line 14
 
-2- open developer mode in chrome extensions and load the files 
-
-3- run app.py and you can use the extension
