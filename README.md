@@ -20,15 +20,22 @@ This project is a vital step toward enhancing online security and empowering use
 
 ### Installation and Setup
 Clone the Repository:
-Run the following command to clone the repository:
-git clone https://github.com/AhadQasmi/ML-Based-Phishing-Detection-.git
+To clone the repository, use the following command:
+ ```bash
+  git clone https://github.com/AhadQasmi/ML-Based-Phishing-Detection-.git
+
 Configure the Local Server:
 Navigate to the project directory and run the Flask application to set up the local server:
-python app.py
+ ```bash
+  python app.py
+
+
 Load the Browser Extension:
 Open Chrome and navigate to chrome://extensions/.
 Enable Developer Mode.
 Click on Load unpacked and select the extension directory.
+
+
 ### Usage
 After loading the extension, you can enter a URL in the input field. The system will classify the URL as either phishing or legitimate based on its training.
 
