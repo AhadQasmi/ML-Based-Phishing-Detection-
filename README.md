@@ -30,7 +30,6 @@ This project is a vital step toward enhancing online security and empowering use
      ```bash
      python app.py
 
-
 Load the Browser Extension:
 Open Chrome and navigate to chrome://extensions/.
 Enable Developer Mode.
@@ -40,9 +39,9 @@ Click on Load unpacked and select the extension directory.
 After loading the extension, you can enter a URL in the input field. The system will classify the URL as either phishing or legitimate based on its training.
 
 ### Technical Specifications
-Programming Language: Python
-Data Processing Libraries: Utilizes various Python libraries for feature extraction and data cleaning.
-User Interface: Built with HTML, CSS, and JavaScript, complemented by a Flask API for communication between the extension and the backend
+ -Programming Language: Python
+ -Data Processing Libraries: Utilizes various Python libraries for feature extraction and data cleaning.
+ -User Interface: Built with HTML, CSS, and JavaScript, complemented by a Flask API for communication between the extension and the backend
 
   
 
