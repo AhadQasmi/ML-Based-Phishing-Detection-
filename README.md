@@ -1,8 +1,12 @@
 # PhishEagle - Machine Learning-Based Phishing Detection System
+
 ## Overview
 Phishing has emerged as a significant cybersecurity threat, affecting both individuals and organizations. Phishing URLs are deceptively crafted to appear legitimate, but they redirect users to malicious sites aimed at stealing sensitive information.
 
 The **PhishEagle** system was developed to combat these phishing attacks by leveraging advanced machine learning techniques. Utilizing a **Random Forest** model trained on a comprehensive Mendeley dataset from 2020, PhishEagle excels in identifying recent phishing attempts with remarkable accuracy.
+
+ ![image](https://github.com/user-attachments/assets/ffe43187-8630-422d-92bf-eb392ce941f4)
+
 
 ### Key Features
 - **High Accuracy**: Achieved an impressive classification accuracy of **99.40%**, effectively distinguishing between phishing and legitimate URLs.
