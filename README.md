@@ -30,9 +30,12 @@ This project is a vital step toward enhancing online security and empowering use
      ```bash
      python app.py
 
-Load the Browser Extension:
+### Load the Browser Extension:
+
 Open Chrome and navigate to chrome://extensions/.
+
 Enable Developer Mode.
+
 Click on Load unpacked and select the extension directory.
 
 ### Usage
