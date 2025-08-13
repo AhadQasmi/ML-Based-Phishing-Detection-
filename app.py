@@ -116,7 +116,7 @@ def extract_features(url):
     except:
         features.append(0)
 
-    # Features13 qty_ip_resolved
+    # Features13 qty_hyphen_directory
     try:
         parsed_url = urlparse(url)
         url_path = parsed_url.path.rsplit('/', 1)[0]
@@ -133,28 +133,28 @@ def extract_features(url):
     except:
         features.append(0)
 
-    # Feature15 qty_hyphen_directory
+    # Feature15 qty_ip_resolved
     try:
         ip_list = socket.getaddrinfo(urlparse(url).netloc, None)
         features.append(len(ip_list))
     except:
         features.append(-1)
 
-    # Feature16 qty_redirects
+    # Feature16 file_length
     try:
         file_name = os.path.basename(urlparse(url).path)
         features.append(len(file_name) if file_name else 0)
     except:
         features.append(0)
 
-    # Feature17 file_length
+    # Feature17 qty_redirects
     try:
         response = requests.get(url)
         features.append(len(response.history))
     except:
         features.append(-1)
 
-    # Feature18 qty_dot_url
+    # Feature18 qty_slash_directory
     try:
         parsed_url = urlparse(url)
         url_path = parsed_url.path.rsplit('/', 1)[0]
@@ -162,13 +162,13 @@ def extract_features(url):
     except:
         features.append(0)
 
-    # Feature19 qty_slash_directory
+    # Feature19 qty_dot_url
     try:
         features.append(url.count('.') if '.' in url else 0)
     except:
         features.append(0)
 
-    # Feature20 tls_ssl_certificate
+    # Feature 20: qty_dot_file
     try:
         file_name = os.path.basename(urlparse(url).path)
         features.append(file_name.count('.') if '.' in file_name else 0)
@@ -192,3 +192,4 @@ def check_url():
 
 if __name__ == '__main__':
     app.run(debug=True)  # Run the Flask in debug mode
+
